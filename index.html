@@ -1,2 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OJAS TECH NOVA</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
 
-<!doctype html><html><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+.login-container{
+    display:flex;
+    height:100vh;
+}
+
+.left-panel{
+    width:35%;
+    background:#0F172A;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.left-panel img{
+    width:180px;
+}
+
+.right-panel{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    background:white;
+    width:420px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+input{
+    width:100%;
+    padding:14px;
+    margin-top:12px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.login-btn{
+    width:100%;
+    background:#0057FF;
+    color:white;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="login-container">
+
+<div class="left-panel">
+
+<img src="assets/logo.png">
+
+<h1>OJAS TECH NOVA</h1>
+
+<p>Workflow Management System</p>
+
+<br>
+
+<p>Innovate • Collaborate • Elevate</p>
+
+</div>
+
+<div class="right-panel">
+
+<div class="login-card">
+
+<h2>Welcome Back</h2>
+
+<br>
+
+<label>Employee ID</label>
+<input type="text">
+
+<label>Password</label>
+<input type="password">
+
+<a href="dashboard.html">
+<button class="login-btn">
+Login
+</button>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
